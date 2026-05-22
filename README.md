@@ -71,3 +71,15 @@ The predictive task was framed as a continuous regression problem. Five advanced
 Ensure your local Python ecosystem matches these target environments:
 ```bash
 pip install pandas numpy scikit-learn matplotlib seaborn
+
+git clone [https://github.com/ZilkarNayeen/Bangladesh-Air-Quality-Forecasting.git](https://github.com/ZilkarNayeen/Bangladesh-Air-Quality-Forecasting.git)
+cd Bangladesh-Air-Quality-Forecasting
+
+# Launch the processing notebook
+jupyter notebook air_quality_forecasting.ipynb
+Future Research Extensions
+Integrating rich meteorological data variables (including humidity, ambient temperature, rainfall metrics, and wind vectors) to bolster predictive accuracy.
+
+Upgrading model benchmarks to include sequential architectures (such as Long Short-Term Memory networks).
+
+Serving the serialized Extra Trees estimator model through a fast web interface framework (FastAPI/Streamlit) to display live interactive visualizations.

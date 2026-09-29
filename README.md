@@ -105,23 +105,7 @@ These are model-specific feature-importance scores from the notebook, not eviden
 
 ## Visualizations
 
-The notebook contains code for AQI distribution, feature importance, model comparison, and actual-versus-predicted plots. Image files are not present in the repository yet; add the generated images here when they are checked in.
-
-### AQI Distribution
-
-_Placeholder: AQI distribution image not yet added._
-
-### Feature Importance
-
-_Placeholder: feature-importance image not yet added._
-
-### Model Comparison
-
-_Placeholder: model-comparison image not yet added._
-
-### Actual vs Predicted AQI
-
-_Placeholder: actual-versus-predicted image not yet added._
+The notebook generates visualizations for AQI distribution, feature importance, model comparison, and actual versus predicted AQI. These plots are currently available in the notebook and are not included as separate image files in the repository.
 
 ## Project Workflow
 
@@ -161,8 +145,8 @@ flowchart TD
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/ZilkarNayeen/Bangladesh-Air-Quality-Forecasting.git
-   cd Bangladesh-Air-Quality-Forecasting
+   git clone https://github.com/ZilkarNayeen/Bangladesh-Air-Quality-Prediction-Using-Machine-Learning.git
+   cd Bangladesh-Air-Quality-Prediction-Using-Machine-Learning
    ```
 
 2. Install the notebook's Python dependencies. The repository does not currently include a `requirements.txt` file:
